@@ -91,12 +91,14 @@ describe("ClientCommandHandler", () => {
             serverIP: "localhost",
             serverPort: 7777,
             isVanilla: false,
+            hidden: false
         };
         serverB = {
             name: "serverb",
             serverIP: "localhost",
             serverPort: 7778,
             isVanilla: false,
+            hidden: false
         };
 
         serversDetails = {
